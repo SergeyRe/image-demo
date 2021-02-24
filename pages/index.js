@@ -7,6 +7,12 @@ const Code = (p) => <code className={styles.inlineCode} {...p} />
 
 const Index = () => (
   
+  
+  
+  <div className={styles.container}>
+    <ViewSource pathname="pages/index.js" />
+    <div className={styles.card}>
+      <h1>Image Component with Next.js</h1>
   <div className="offerimg">
                                       <Image
                                     
@@ -18,11 +24,6 @@ const Index = () => (
                                         objectFit="scale-down"
                                       />
                                     </div>
-  
-  <div className={styles.container}>
-    <ViewSource pathname="pages/index.js" />
-    <div className={styles.card}>
-      <h1>Image Component with Next.js</h1>
       <p>
         The images below use the{' '}
         <a href="https://nextjs.org/docs/api-reference/next/image">
