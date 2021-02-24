@@ -14,16 +14,7 @@ const Index = () => (
     <div className={styles.card}>
       <h1>Image Component with Next.js</h1>
   <div className="offerimg">
-                                      <Image
-                                    
-                                        src="https://avatars.mds.yandex.net/get-mpic/1522540/img_id8376300389632234122.jpeg/orig"
-                                       
-                                        layout="fill"
-                                        loading="eager"
-                                        priority={true}
-                                        objectFit="scale-down"
-                                      />
-                                    </div>
+                                     
       <p>
         The images below use the{' '}
         <a href="https://nextjs.org/docs/api-reference/next/image">
@@ -106,6 +97,16 @@ const Index = () => (
       </a>{' '}
       to learn more.
     </div>
+   <Image
+                                    
+                                        src="https://avatars.mds.yandex.net/get-mpic/1522540/img_id8376300389632234122.jpeg/orig"
+                                       
+                                        layout="fill"
+                                        loading="eager"
+                                        priority={true}
+                                        objectFit="scale-down"
+                                      />
+                                    </div>
   </div>
 )
 
