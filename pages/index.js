@@ -6,6 +6,19 @@ import ViewSource from '../components/view-source'
 const Code = (p) => <code className={styles.inlineCode} {...p} />
 
 const Index = () => (
+  
+  <div className="offerimg">
+                                      <Image
+                                    
+                                        src='https://avatars.mds.yandex.net/get-mpic/1522540/img_id8376300389632234122.jpeg/orig'
+                                       
+                                        layout="fill"
+                                        loading="eager"
+                                        priority={true}
+                                        objectFit="scale-down"
+                                      />
+                                    </div>
+  
   <div className={styles.container}>
     <ViewSource pathname="pages/index.js" />
     <div className={styles.card}>
