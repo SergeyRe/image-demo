@@ -4,11 +4,12 @@ import Link from 'next/link'
 import ViewSource from '../components/view-source'
 
 const Code = (p) => <code className={styles.inlineCode} {...p} />
-
-const Index = () => (
-  const myLoader = ({ src, width, quality }) => {
+ const myLoader = ({ src, width, quality }) => {
   return `${src}?w=150&q=75`
 }
+
+const Index = () => (
+ 
   
   
   <div >
