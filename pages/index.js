@@ -27,6 +27,19 @@ const Index = () => (
                                         objectFit="scale-down"
                                       />
                                     </div>
+  <div className="offerimg">
+                                     
+      
+   <Image
+                                    
+                                        src="https://avatars.mds.yandex.net/get-mpic/1522540/img_id8376300389632234122.jpeg/orig"
+                                     
+                                        layout="fill"
+                                        loading="eager"
+                                        priority={true}
+                                        objectFit="scale-down"
+                                      />
+                                    </div>
   </div>
 )
 
